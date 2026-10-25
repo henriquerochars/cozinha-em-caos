@@ -17,7 +17,7 @@
     "build:server": "pnpm --filter @cozinha/server build"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

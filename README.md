@@ -47,7 +47,7 @@ O botão sempre mostra o que vai acontecer. Quando nada é possível, ele explic
 
 ## Rodando
 
-Pré-requisitos: Node 20+, [pnpm](https://pnpm.io) 10 e o app [Expo Go](https://expo.dev/go) nos celulares (ou um navegador).
+Pré-requisitos: Node 22+, [pnpm](https://pnpm.io) 10 e o app [Expo Go](https://expo.dev/go) nos celulares (ou um navegador).
 
 ```bash
 pnpm install
