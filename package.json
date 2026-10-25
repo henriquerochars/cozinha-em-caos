@@ -1,0 +1,28 @@
+{
+  "name": "cozinha-em-caos",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Jogo cooperativo de cozinha para dois celulares (React Native + Expo + Skia + Colyseus)",
+  "packageManager": "pnpm@10.27.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel --stream run dev",
+    "dev:server": "pnpm --filter @cozinha/server dev",
+    "dev:mobile": "pnpm --filter @cozinha/mobile start",
+    "web": "pnpm --filter @cozinha/mobile web",
+    "android": "pnpm --filter @cozinha/mobile android",
+    "ios": "pnpm --filter @cozinha/mobile ios",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "build:server": "pnpm --filter @cozinha/server build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "msgpackr-extract"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Cozinha em Caos",
+    "slug": "cozinha-em-caos",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "cozinhaemcaos",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF4E3",
+    "splash": {
+      "backgroundColor": "#FFF4E3",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cozinhaemcaos.app",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "Conecta ao servidor da partida na sua rede Wi-Fi.",
+        "NSBonjourServices": ["_http._tcp"]
+      }
+    },
+    "android": {
+      "package": "com.cozinhaemcaos.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF4E3",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-audio", "expo-font"],
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
